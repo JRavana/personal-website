@@ -1,0 +1,221 @@
+/* Project: Personal Website
+Description: This is our personal site project. It will be hosted on GitHub using gh-pages.
+Color Theme:
+  - Primary Color: #4F2E76
+  - Secondary Color: #6D4F92
+  - Complement Color: #6D4F92
+  - Base Color: #4F2E76 (purple)
+  - Dark Color: #1F063D
+*/
+/*  Global Styles  */
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  text-decoration-color: #1F063D
+}
+
+h1, h2{
+  margin: 0;
+}
+
+.container{
+  margin: 0px 15px;
+}
+
+.border{
+  border-bottom: 2px solid #fff;
+  /*height: 20px;*/
+  padding: 10px;
+}
+/*  Header Styles */
+
+header{
+  height: 100px;
+  background-color: #6D4F92;
+  color: #fff;
+}
+
+header a{
+  color: #fff;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu{
+  width: 30%;
+  float: left;
+  margin-top: 25px;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu li:after{
+  padding-right: 5px;
+  content: " | ";
+}
+
+.sm-icon{
+  width: 30%;
+  float: right;
+  margin-top: 40px;
+}
+
+.sm-icon a{
+  padding-right: 7px;
+}
+
+/*  Banner Styles */
+#banner{
+  height: 300px;
+  /*background: url("../img/cat-eyes.jpg") center;*/
+  background: url("../img/cat-scale.jpg") center;
+  background-attachment: fixed;
+  /*  If the background image is properly sized to the banner, do not use background-attachment. This will cause the banner to scroll over the image, thus making it visibly loop as the image won't be large enough to scroll. Otherwise, if it's a giant image and the scrolling effect is desired, background-attachment: fixed will give the desired effect.  */
+  /*  Less relevant in today's internet, but still a good idea to resize images so that they are only as large as they need to be. Keep the pipes open and the hard drive reads/writes down as much as possible, as this is a website and the server may be required to do a lot very quickly. Should there be a massive volume of requests...every bit of power matters. */
+
+}
+
+#banner h1{
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  /*  em is a measure using spatial relations, roughly 16 px per character but scales with font changes and elements, rem is similar but will stick to 16 much more strictly than em  */
+}
+
+/*  Skills Section  */
+#skills{
+  background-color: #AA3939;
+  height: 475px;
+  color: #fff;
+}
+
+#skills .skills-box{
+  width: 25%;
+  height: 100%;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 30px 2%;
+  border-radius: 5px;
+}
+
+.skills-icon{
+  height: 50px;
+  width: 50px;
+  margin: 0px auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.skills-icon i{
+  margin: 9px 11px;
+  font-size: 2em;
+  color: #AA3939;
+}
+
+.skills-detail h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills-detail{
+  text-align: justify;
+  line-height: 20px;
+}
+
+/*  About section styles  */
+#about{
+  background-color: #6D4F92;
+  height: 450px;
+}
+
+.aboutimage{
+  width: 30%;
+  float: left;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.aboutimage img{
+  width: 100%;
+  height: 100%;
+}
+
+.abouttext{
+  width: 60%;
+  border-style: dashed;
+  border-width: 1px;
+  float: left;
+  padding: 20px;
+  margin: 30px 0px;
+}
+
+.abouttext h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+/*  Footer Styles */
+#footer{
+  color: white;
+  height: 200px;
+  background-color: #AA3939;
+}
+
+#footer h3{
+  margin-top: 0px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#footer .icon-container{
+  margin: auto;
+  width: 222px;
+}
+
+#footer .media-icon{
+  height: 50px;
+  width: 50px;
+  margin: 10px 10px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 100%;
+  float: left;
+}
+
+.media-icon i{
+  font-size: 2em;
+  color: #AA3939;
+}
+
+#media1{
+  margin: 9px 14px;
+}
+
+#media2{
+  margin: 9px 12px;
+}
+
+#media3{
+  margin: 9px 9px;
+}
