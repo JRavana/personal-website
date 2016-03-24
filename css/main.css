@@ -234,7 +234,7 @@ header a{
 
 #about-me{
   background-color: #6D4F92;
-  height: 550px;
+  height: 580px;
 }
 
 #about-textblock{
@@ -250,13 +250,13 @@ header a{
 #about-me h2{
   text-align: center;
   font-size: 42pt;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 #about-imageblock{
   width: 25%;
   margin-right: 15px;
-  margin-top: 60px;
+  margin-top: 70px;
   float: left;
 }
 
