@@ -264,3 +264,52 @@ header a{
   width: 100%;
   height: 100%;
 }
+
+/*  Styles for Contact page */
+#map iframe{
+  margin:0px 30px;
+}
+
+#contactme{
+  background-color: #6D4F92;
+  height: 500px;
+}
+
+#contactme h2{
+  text-align: center;
+  font-size: 3em;
+}
+
+#forms{
+  float: left;
+  margin-left: 270px;
+  margin-right: 50px;
+}
+
+#forms .button{
+  float: right;
+  margin-right: 5px;
+  font-size: 20pt;
+}
+
+#info{
+  float: left;
+  font-size: 2em;
+}
+
+#info p{
+  margin-top: 10px;
+}
+
+
+.smallform{
+  width: 500px;
+  height: 30px;
+  margin: 5px;
+}
+
+.largeform{
+  width: 500px;
+  height: 200px;
+  margin: 5px;
+}
