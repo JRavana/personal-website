@@ -278,12 +278,14 @@ header a{
 #contactme h2{
   text-align: center;
   font-size: 3em;
+  padding-top: 10px;
 }
 
 #forms{
   float: left;
   margin-left: 270px;
   margin-right: 50px;
+  margin-top: 20px;
 }
 
 #forms .button{
@@ -298,7 +300,7 @@ header a{
 }
 
 #info p{
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 
