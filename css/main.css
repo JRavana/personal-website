@@ -65,12 +65,14 @@ header a{
 
 .menu li{
   float: left;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
-.menu li:after{
+/*.menu li:after{
   padding-right: 5px;
   content: " | ";
-}
+}*/
 
 .sm-icon{
   width: 30%;
@@ -80,6 +82,10 @@ header a{
 
 .sm-icon a{
   padding-right: 7px;
+}
+
+#currentpage{
+  color: gray;
 }
 
 /*  Banner Styles */
