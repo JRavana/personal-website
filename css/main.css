@@ -98,7 +98,6 @@ header a{
   background-attachment: fixed;
   /*  If the background image is properly sized to the banner, do not use background-attachment. This will cause the banner to scroll over the image, thus making it visibly loop as the image won't be large enough to scroll. Otherwise, if it's a giant image and the scrolling effect is desired, background-attachment: fixed will give the desired effect.  */
   /*  Less relevant in today's internet, but still a good idea to resize images so that they are only as large as they need to be. Keep the pipes open and the hard drive reads/writes down as much as possible, as this is a website and the server may be required to do a lot very quickly. Should there be a massive volume of requests...every bit of power matters. */
-
 }
 
 #banner h1{
@@ -106,6 +105,7 @@ header a{
   text-align: center;
   color: #fff;
   font-size: 3em;
+  text-shadow: 2px 2px black;
   /*  em is a measure using spatial relations, roughly 16 px per character but scales with font changes and elements, rem is similar but will stick to 16 much more strictly than em  */
 }
 
